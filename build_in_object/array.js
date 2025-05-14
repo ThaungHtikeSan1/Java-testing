@@ -63,22 +63,22 @@
 // const finalArray = numbers.concat(jungle).concat(person)
 // console.log(finalArray);
 
-//spread => array and object combine
-// const obj1={
-//     a:"aa",
-//     b:"bb",
-//     c:"cc"
-// }
+// spread => array and object combine
+const obj1={
+    a:"aa",
+    b:"bb",
+    c:"cc"
+}
 
-// const obj2={
-//     x:"xx",
-//     y:"yy",
-//     z:"zz"
-// }
+const obj2={
+    x:"xx",
+    y:"yy",
+    z:"zz"
+}
 
-// // const finalArray = [...numbers,...jungle,...person]
-// // console.log(finalArray);
+// const finalArray = [...numbers,...jungle,...person]
+// console.log(finalArray);
 
-// const finalObj = {...obj1,...obj2}
-// console.log(finalObj);
+const finalObj = {...obj1,...obj2}
+console.log(finalObj);
 
