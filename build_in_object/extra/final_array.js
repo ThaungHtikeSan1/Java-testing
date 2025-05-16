@@ -309,7 +309,7 @@ const index = [1,5,6,8,9,10]
 
 //find()
 
-const points = [34, 15, 2, 52, 19, 56, 30, 57];
+// const points = [34, 15, 2, 52, 19, 56, 30, 57];
 // console.log(points.find(num=>{
 //     return num===15
 // }));
@@ -320,17 +320,24 @@ const points = [34, 15, 2, 52, 19, 56, 30, 57];
 
 //reduce()
 
-console.log(points.reduce((pv,cv)=>{
-    console.log(pv,cv);
-        return pv+cv
-},0))
+// console.log(points.reduce((pv,cv)=>{
+//     console.log(pv,cv);
+//         return pv+cv
+// },0))
 
-console.log(fruits.reduce((pv,cv)=>{
-    console.log(pv,cv);
-    return pv+cv;
-},""));
+// console.log(fruits.reduce((pv,cv)=>{
+//     console.log(pv,cv);
+//     return pv+cv;
+// },""));
 
-console.log(products.reduce((pv,cv)=>{
-    console.log(pv,cv.price);
-    return pv+cv.price
-},0));
+// console.log(products.reduce((pv,cv)=>{
+//     console.log(pv,cv.price);
+//     return pv+cv.price
+// },0));
+
+const points = [34, 15, 2, 52, 19, 56, 30, 57];
+//some => || or
+//every => && and
+
+console.log(points.some((num=> num==52)));
+console.log(points.every((num=>num>1)));
