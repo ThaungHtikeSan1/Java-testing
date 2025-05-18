@@ -21,20 +21,38 @@
 
 //select an element
 
-console.log(document.getElementsByTagName("h1"));
-console.log(document.getElementsByTagName("p"));
-console.log(document.getElementsByTagName("input"));
-console.log(document.getElementsByTagName("button"));
+// console.log(document.getElementsByTagName("h1"));
+// console.log(document.getElementsByTagName("p"));
+// console.log(document.getElementsByTagName("input"));
+// console.log(document.getElementsByTagName("button"));
 
-const heading=document.getElementById("heading")
-const para =document.getElementById("para")
-const textInput =document.getElementById("textInput")
+// const heading=document.getElementById("heading")
+// const para =document.getElementById("para")
+// const textInput =document.getElementById("textInput")
 const btn =document.getElementById("btn")
-const fruit=document.getElementById("fruits")
+// const fruit=document.getElementById("fruits")
 // console.dir(heading.innerHTML)
 // console.dir(heading.innerText);
 
 // console.log(fruit.innerHTML);
 // console.log(fruit.innerText);
 
-console.dir(textInput);
+// console.dir(textInput);
+
+//Set Text
+
+console.log(heading.innerText);
+// heading.innerText="Mingalarpar"
+heading.innerText=textInput.value
+
+const changeTitle=()=>{
+    heading.innerText=textInput.value;
+}
+
+//Event
+// btn.onclick=()=>{
+//     changeTitle();
+// }
+
+//method 
+// btn.addEventListener("click",changeTitle)
