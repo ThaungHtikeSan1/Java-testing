@@ -7,13 +7,13 @@ const restoreBtn = document.getElementById("restoreBtn")
 const list = document.getElementById("list")
 
 //area fn
-const area = (w,b)=> w * b
+const area = (w,b)=> w * b; 
 
 calculateBtn.onclick=()=>{
     const w=width.valueAsNumber
     const b=breadth.valueAsNumber
     const a=area(w,b)
-    result.innerText= `${a} ft * ${b} ft = ${a} sqft`
+    result.innerText= `${w} ft * ${b} ft = ${a} sqft`
     width.value =""
     breadth.value=""
 }
