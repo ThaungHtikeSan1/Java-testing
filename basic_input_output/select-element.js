@@ -27,4 +27,17 @@ domElement.style.color = "blue"
 domElement.style.fontSize = "50px"
 console.log(domElement.style.color);
 
+const addBgColorBtn=document.querySelector("#addBgBtn")
+
+addBgColorBtn.onclick=()=>{
+    domElement.style.backgroundColor="black"
+}
+
+const box=document.querySelector(".box")
+const toggleBtn=document.querySelector("#toggleBtn")
+
+// console.dir(box);
+toggleBtn.onclick=()=>{
+    box.classList.toggle("hidden")
+}
 
